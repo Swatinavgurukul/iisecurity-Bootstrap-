@@ -1,43 +1,3 @@
-.bulb{
-  position: absolute;
-    z-index: -1;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
-    right: 0px;
-    overflow: hidden;
-    background-size: cover;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: 0% 50%;
-}
-.text{
-  margin-bottom: -80%;
-  text-align: center ;
-  font-size: 34px;
-  font-weight: 300;
-  line-height: 50px;
-  margin-bottom: 40px;
-  color: #fff
-  
-}
-.btn{
-  border-color: #ffffff;
-  color: white;
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 3px;
-  font-size: 12px;
-}
-
-.color--dark{
-  color: #252525;
-}
-.color--dark:hover{
-  color: #1abc9c;
-  text-decoration: none;
-}
-
 .nav-link-padding{
   padding: .5rem 1rem;
   font-size: 12px;
@@ -48,4 +8,76 @@
 .navbar-space{
   padding: 0!important;
   margin: 0!important;
+}
+.color--dark{
+  color: #252525;
+}
+.color--dark:hover{
+  color: #1abc9c;
+  text-decoration: none;
+}
+.bulb{
+    background-image: url('FlyingStart.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    overflow: hidden;
+    background-size: cover;
+    text-align: center;
+}
+.text{
+  margin-top: 33%;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 50px;
+  color: white;
+  
+}
+.mar-r-20{
+  margin-right: 20%;
+}
+.mar-r-5{
+  margin-right: 5%;
+}
+.location-span{
+  display: block;
+  float: right;
+  line-height: inherit ;
+  letter-spacing: 1px;
+  padding: 0;
+  color: #252525;
+  
+  
+}
+
+.state-border{
+  padding-left: 25px;
+  line-height: 80px;
+  margin-right: 20px;
+}
+
+.heading{
+  font-size: 40px;
+  font-family: "Nunito", "Helvetica", "Arial", sans-serif;
+  text-transform: capitalize;
+  line-height: 46px;
+  font-weight: 300;
+}
+.btn--secondary{
+  border-radius: 2.5px!important;
+  background-color: transparent;
+  border: 2px solid #fff!important;
+  color: #fff;
+  font-size: 12px!important;
+  font-weight: 600!important;
+  letter-spacing: 1.5px;
+  padding: 0.55rem 1.05rem!important;
+}
+.btn--secondary:hover{
+  background-color: #fff;
+  color:#4c5667
 }
